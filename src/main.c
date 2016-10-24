@@ -44,6 +44,8 @@ extern __IO  uint32_t length ;
 uint8_t Send_Buffer[64];
 uint32_t packet_sent=1;
 uint32_t packet_receive=1;
+
+__IO uint8_t PrevXferComplete = 1;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 /*******************************************************************************
@@ -65,7 +67,9 @@ int main(void)
     if (bDeviceState == CONFIGURED)
     {
       
-      
+      if(PrevXferComplete){
+        mouse_action();
+      }
       
       
 //      CDC_Receive_DATA();

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\software_install\IAR SystemsEmbedded Workbench 7.5\common\bin\cspybat" -f "D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.general.xcl" --backend -f "D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.driver.xcl" 
+"D:\software_install\IAR SystemsEmbedded Workbench 7.5\common\bin\cspybat" -f "D:\github\stm_mouse_usb\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.general.xcl" --backend -f "D:\github\stm_mouse_usb\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\software_install\IAR SystemsEmbedded Workbench 7.5\common\bin\cspybat" -f "D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.general.xcl" "--debug_file=%~1" --backend -f "D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.driver.xcl" 
+"D:\software_install\IAR SystemsEmbedded Workbench 7.5\common\bin\cspybat" -f "D:\github\stm_mouse_usb\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.general.xcl" "--debug_file=%~1" --backend -f "D:\github\stm_mouse_usb\EWARM\settings\VirtualComport_Loopback.STM3210B-EVAL.driver.xcl" 
 
 @echo off 
 :end

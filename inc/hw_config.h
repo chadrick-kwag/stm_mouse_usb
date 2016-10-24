@@ -56,5 +56,10 @@ uint32_t CDC_Send_DATA (uint8_t *ptrBuffer, uint8_t Send_length);
 uint32_t CDC_Receive_DATA(void);
 /* External variables --------------------------------------------------------*/
 
+
+
+//added
+void mouse_action(void);
+
 #endif  /*__HW_CONFIG_H*/
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

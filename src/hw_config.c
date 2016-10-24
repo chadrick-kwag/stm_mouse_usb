@@ -48,6 +48,12 @@ extern __IO uint8_t Receive_length;
 uint8_t Receive_Buffer[64];
 uint32_t Send_length;
 static void IntToUnicode (uint32_t value , uint8_t *pbuf , uint8_t len);
+
+
+
+//added
+extern __IO uint8_t PrevXferComplete;
+
 /* Extern variables ----------------------------------------------------------*/
 
 extern LINE_CODING linecoding;
@@ -375,5 +381,30 @@ uint32_t CDC_Receive_DATA(void)
   SetEPRxValid(ENDP3); 
   return 1 ;
 }
+
+
+// added
+
+void mouse_action(void)
+{
+  uint8_t Mouse_Buffer[4] = {0, 0, 0, 0};
+  int8_t X = 10, Y = 0;
+  
+  /* prepare buffer to send */
+  Mouse_Buffer[1] = X;
+  Mouse_Buffer[2] = Y;
+  
+  /* Reset the control token to inform upper layer that a transfer is ongoing */
+  PrevXferComplete = 0;
+  
+  /* Copy mouse position info in ENDP1 Tx Packet Memory Area*/
+  USB_SIL_Write(EP1_IN, Mouse_Buffer, 4);
+  
+  /* Enable endpoint for transmission */
+  SetEPTxValid(ENDP1);
+
+}
+
+
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

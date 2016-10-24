@@ -1,16 +1,16 @@
-"D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\src\usb_istr.c"
+"D:\github\stm_mouse_usb\src\usb_istr.c"
 -std=c99
 -ferror-limit=100
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\..\inc
+D:\github\stm_mouse_usb\EWARM\..\inc
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\..\CMSIS
+D:\github\stm_mouse_usb\EWARM\..\CMSIS
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\..\STM32_USB-FS-Device_Driver\inc
+D:\github\stm_mouse_usb\EWARM\..\STM32_USB-FS-Device_Driver\inc
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\..\STM32F10x_StdPeriph_Driver
+D:\github\stm_mouse_usb\EWARM\..\STM32F10x_StdPeriph_Driver
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\..\utilities
+D:\github\stm_mouse_usb\EWARM\..\utilities
 -I
 D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\CMSIS\Include
 -I
@@ -18,15 +18,15 @@ D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\inc
 -I
 D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\inc\c
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\inc
+D:\github\stm_mouse_usb\inc
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\CMSIS
+D:\github\stm_mouse_usb\CMSIS
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\STM32_USB-FS-Device_Driver\inc
+D:\github\stm_mouse_usb\STM32_USB-FS-Device_Driver\inc
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\STM32F10x_StdPeriph_Driver
+D:\github\stm_mouse_usb\STM32F10x_StdPeriph_Driver
 -I
-D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\utilities
+D:\github\stm_mouse_usb\utilities
 -I
 D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=1
