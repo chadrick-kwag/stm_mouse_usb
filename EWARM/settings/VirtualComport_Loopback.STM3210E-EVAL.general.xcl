@@ -1,0 +1,15 @@
+"D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\bin\armstlink2.dll" 
+
+"D:\chrome_download\en.stsw-stm32121\STM32_USB-FS-Device_Lib_V4.0.0\Projects\VirtualComport_Loopback\EWARM\STM3210E-EVAL\Exe\VirtualComport_Loopback.out" 
+
+--plugin "D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--device_macro "D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "D:\software_install\IAR SystemsEmbedded Workbench 7.5\arm\config\flashloader\ST\FlashSTM32F10xxE.board" 
+
+
+
+
